@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "lastname_field",
-  "firstname_field"
+  "firstname_field",
+  "nirand"
  ],
  "fields": [
   {
@@ -18,12 +19,17 @@
    "fieldname": "firstname_field",
    "fieldtype": "Data",
    "label": "firstname"
+  },
+  {
+   "fieldname": "nirand",
+   "fieldtype": "Data",
+   "label": "Nirand"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-30 12:02:59.847372",
+ "modified": "2025-09-24 11:56:41.401174",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "person",
